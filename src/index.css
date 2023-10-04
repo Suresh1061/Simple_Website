@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+body{
+    background-color: #000300;
+}
+
+.btn{
+    @apply w-[150px] my-8 mx-auto  rounded-md  py-3 font-medium  hover:scale-110 duration-300
+}
+
+.radius{
+    border-radius:  180px 180px 300px 290px;
+}
